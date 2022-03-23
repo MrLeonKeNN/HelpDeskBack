@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head xmlns:th="http://www.thymeleaf.org">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 style="text-align: center;font-size:30px " th:utext = "'Dear' +${FName} +' '+${LName}"></h1>
+    <p style="text-align: center;font-size:24px ">Ticket  <a th:href="${Link}" th:utext="'Ticket ' + ${id}"></a> was done  by the Engineer</p>
+    <p style="text-align: center;font-size:42px ">Please provide your feedback clicking on the ticket ID.</p>
+</body>
+</body>
+</html>
