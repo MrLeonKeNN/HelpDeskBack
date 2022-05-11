@@ -52,6 +52,7 @@ dependencies {
     implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.6.3.Final'
     implementation group: 'org.hibernate', name: 'hibernate-ehcache', version: '5.6.3.Final'
     implementation group: 'com.googlecode.log4jdbc', name: 'log4jdbc', version: '1.2'
+    implementation 'com.google.code.findbugs:jsr305:3.0.2'
 
     compileOnly 'org.projectlombok:lombok'
     runtimeOnly 'com.h2database:h2'
